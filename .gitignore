@@ -1,0 +1,7 @@
+# OS artefacts from Mac and Windows
+.DS_Store
+Thumbs.db
+
+# Generated site artefacts
+/public/
+/resources/
