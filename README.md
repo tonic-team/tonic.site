@@ -10,7 +10,7 @@ It is built using [blogdown] and [Hugo].
 
 The content is licensed under the [CC BY-SA 4.0 license].
 
-[Tonic site]: https://tonic-team.github.com/tonic.site
+[Tonic site]: https://gin-tonic.netlify.app
 [blogdown]: https://github.com/rstudio/blogdown
 [Hugo]: https://gohugo.io/
 [CC BY-SA 4.0 license]: https://creativecommons.org/licenses/by-sa/4.0/

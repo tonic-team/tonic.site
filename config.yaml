@@ -1,5 +1,5 @@
 theme: "hugo-geekdoc"
-baseURL: /
+baseURL: https://gin-tonic.netlify.app
 languageCode: en-us
 title: Tonic Template
 
