@@ -2,6 +2,12 @@
 .DS_Store
 Thumbs.db
 
+# User files from R and RStudio
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
 # Generated site artefacts
 /public/
 /resources/
