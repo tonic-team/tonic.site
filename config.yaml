@@ -1,12 +1,8 @@
-theme: "hugo-geekdoc"
 baseURL: https://gin-tonic.netlify.app/
-languageCode: en-us
-title: Tonic Template
+languageCode: en-US
 
-markup:
-  goldmark:
-    renderer:
-      unsafe: true
+theme: "hugo-theme-learn"
+title: Tonic project documentation
 
 ignoreFiles:
   - "\\.Rmd$"
@@ -14,3 +10,14 @@ ignoreFiles:
   - "_cache$"
   - "\\.knit\\.md$"
   - "\\.utf8\\.md$"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  editURL: https://github.com/tonic-team/tonic.site/edit/master/content/
+  disableNextPrev: false
+  disableSearch: true
+  disableMermaid: true
