@@ -17,7 +17,7 @@ markup:
       unsafe: true
 
 params:
-  editURL: https://github.com/tonic-team/tonic.site/edit/master/content/
+  editURL: https://github.com/tonic-team/tonic.site/edit/main/content/
   disableNextPrev: false
   disableSearch: true
   disableMermaid: true
