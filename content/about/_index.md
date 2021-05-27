@@ -1,6 +1,6 @@
 ---
 title: About us
-chapter: true
+
 ---
 
 

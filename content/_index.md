@@ -2,7 +2,12 @@
 title: Home
 ---
 
-# Welcome to the (GIN-)Tonic documentation webpage
+# GIN-Tonic: a digital shelf for your research files
+
+{{% notice info %}}
+This homepage works as a documentation for the tools created inside the Tonic project.
+While the tools were developed in order to be integrated in the G-node Infrastructure GIN, they can be used independently.
+{{% /notice %}}
 
 ## What is the Tonic project?
 
@@ -20,12 +25,12 @@ The other tools are extensions making the work with git servers (GIN, GitHub or 
 
 ## Development status
 
-Standard: version 2.2
-Tonic: beta, v1.0 meant for 2021
-Scripts: beta, v1.0 meant for 2021
+- Standard: version 2.2
+- Tonic: beta, v1.0 meant for 2021
+- Scripts: beta, v1.0 meant for 2021
 
 
-## Why was tonic built
+## Why was Tonic built
 
 In the course of many research projects, digital data of various kinds is used and created.
 This data is often organized in implicitly grown file structures, so new collaborators or staff must understand the file structure before they can explore the content.

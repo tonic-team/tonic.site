@@ -33,7 +33,7 @@ The folder names represent the URL segments, and the menu is built from the fold
 If you add or edit page files, the local dev server will reload in the browser.
 
 - Section pages are located at `content/<section-name>/_index.md`.
-  The underscore is important, and the metadata block should contain `chapter: true`.
+  The underscore is important, and the metadata block should contain `chapter: true`. Note that the text will be centered when `chapter:` is set to `true`.
 - Child pages are located at `content/<section-name>/<page-name>/index.md`
 
 Consult the [theme documentation] for more information about content editing.
