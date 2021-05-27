@@ -2,14 +2,40 @@
 title: Home
 ---
 
-# Welcome to Tonic
+# Welcome to the (GIN-)Tonic documentation webpage
+
+## What is the Tonic project?
+
+The Tonic project aims to develop a common file structure for (neuro-)scientific research projects, as well as software to facilitate its use. Our ultimate goal is to facilitate data, project and lab managment using an open source approach and technologically relatively simple approach.
+
+[We are data managers](about) who support project templates and tooling for project structure creation, extension and validation. This site documents the tools and gives guidelines on how to best use them. 
+
+
+
+## Overview 
+
+This project stands on a [research folder structure standard](standard), which is a template of folders to give a similar organisation of files for different research projects. In contast to the other tools, this first output can be used independently of a git-based technology.
+
+The other tools are extensions making the work with git servers (GIN, GitHub or GitLab) easier. [Scripts](tooling/scripts) synchronise content between machines and a Git server via a double click. The [Tonic](tooling/tonictool) application automates complex administrative tasks like the creation of project repositories and user management.
+
+## Development status
+
+Standard: version 2.2
+Tonic: beta, v1.0 meant for 2021
+Scripts: beta, v1.0 meant for 2021
+
+
+## Why was tonic built
 
 In the course of many research projects, digital data of various kinds is used and created.
 This data is often organized in implicitly grown file structures, so new collaborators or staff must understand the file structure before they can explore the content.
 If research projects could adhere to a common file structure standard, data sharing and collaboration were more efficient.
-The Tonic project aims to develop a common file structure for neuroscientific research projects.
-Supporting project templates and tooling for project structure creation and validation will also be implemented.
+
+
 All of them will be documented on this site.
 Tonic has been initiated to augment the [GIN] (G-Node infrastructure), a version control system for neuroscientific data, but isn't restricted to GIN.
 
 [GIN]: https://gin.g-node.org
+
+
+
