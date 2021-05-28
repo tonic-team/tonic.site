@@ -7,6 +7,12 @@ weight: 1
 This is the minimal information you should read before using the standard. It is organised via when you will use what folder and does not go into details
 {{% / notice %}}
 
+{{% notice warning%}}
+You may **delete folders** you are not using, but please do not rename the existing ones, as it would probably break the tools made available and reduce the portability of your data. 
+
+If you want to **add new folders**, please tell us so we can include them in a future version of the template (so others needing similar structures would name them identically.)
+{{% / notice %}}
+
 
 ### Prior to data acquisition: 
 

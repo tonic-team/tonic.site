@@ -17,7 +17,7 @@ It is good practice to keep the information up to date and to enter information 
 
 One can use RRID numbers for reagents, and doi for protocols as unique identifiers.
 
-## organisation
+## Organisation
 
 One may use a key reagent table (a spreadsheet) to collect information about reagents.
 
