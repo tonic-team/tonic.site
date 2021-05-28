@@ -1,0 +1,9 @@
+Results of markdown-link-check linter (version 0.0.0)
+See documentation on https://nvuillam.github.io/mega-linter/descriptors/markdown_markdown_link_check/
+-----------------------------------------------
+
+✅ [SUCCESS] README.md
+✅ [SUCCESS] content/_index.md
+✅ [SUCCESS] content/about/_index.md
+✅ [SUCCESS] content/tooling/_index.md
+✅ [SUCCESS] content/tooling/tonictool/index.md

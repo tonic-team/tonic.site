@@ -1,0 +1,32 @@
+Results of editorconfig-checker linter (version 2.3.5)
+See documentation on https://nvuillam.github.io/mega-linter/descriptors/editorconfig_editorconfig_checker/
+-----------------------------------------------
+
+✅ [SUCCESS] .Rprofile
+✅ [SUCCESS] .cspell.json
+✅ [SUCCESS] .editorconfig
+✅ [SUCCESS] .github/workflows/mega-linter.yml
+✅ [SUCCESS] .gitignore
+✅ [SUCCESS] .jscpd.json
+✅ [SUCCESS] .markdownlint.yml
+✅ [SUCCESS] .markdownlintignore
+✅ [SUCCESS] .mega-linter.yml
+✅ [SUCCESS] .vscode/extensions.json
+✅ [SUCCESS] .vscode/settings.json
+✅ [SUCCESS] LICENSE.txt
+✅ [SUCCESS] R/build.R
+✅ [SUCCESS] R/build2.R
+✅ [SUCCESS] README.md
+✅ [SUCCESS] config.yaml
+✅ [SUCCESS] content/_index.md
+✅ [SUCCESS] content/about/_index.md
+✅ [SUCCESS] content/standard/_index.Rmarkdown
+✅ [SUCCESS] content/standard/_index.markdown
+✅ [SUCCESS] content/standard/references.bib
+✅ [SUCCESS] content/tooling/_index.md
+✅ [SUCCESS] content/tooling/tonictool/index.md
+✅ [SUCCESS] index.Rmd
+✅ [SUCCESS] layouts/partials/logo.html
+✅ [SUCCESS] netlify.toml
+✅ [SUCCESS] static/images/logo.svg
+✅ [SUCCESS] static/standard/_index_files/fig4.png
