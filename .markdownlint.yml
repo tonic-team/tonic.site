@@ -3,3 +3,4 @@
 MD013:
   line_length: 130 # typographical average
   code_block_line_length: 120 # convention in many programming languages
+MD025: false
