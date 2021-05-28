@@ -1,6 +1,7 @@
 ---
 title: Tools
 chapter: true
+weight: 4
 ---
 
 # Tools

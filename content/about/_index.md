@@ -1,5 +1,6 @@
 ---
-title: About us
+title: The team
+weight: 9
 ---
 
 ## Who is behind this project
