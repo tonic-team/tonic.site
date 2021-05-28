@@ -1,8 +1,0 @@
-Results of markdownlint linter (version 0.27.1)
-See documentation on https://nvuillam.github.io/mega-linter/descriptors/markdown_markdownlint/
------------------------------------------------
-
-❌ [ERROR] for workspace /github/workspace
-Linter raw log:
-/github/workspace/content/standard/_index.Rmarkdown:16:131 MD013/line-length Line length [Expected: 130; Actual: 249]
-

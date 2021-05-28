@@ -1,8 +1,0 @@
-Results of yamllint linter (version 1.26.1)
-See documentation on https://nvuillam.github.io/mega-linter/descriptors/yaml_yamllint/
------------------------------------------------
-
-✅ [SUCCESS] .github/workflows/mega-linter.yml
-✅ [SUCCESS] .markdownlint.yml
-✅ [SUCCESS] .mega-linter.yml
-✅ [SUCCESS] config.yaml

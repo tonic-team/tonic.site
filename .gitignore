@@ -11,3 +11,4 @@ Thumbs.db
 # Generated site artefacts
 /public/
 /resources/
+/report/
