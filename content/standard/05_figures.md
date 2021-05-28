@@ -6,4 +6,3 @@ weight: 6
 {{% notice info%}}
 ...
 {{% / notice %}}
-
