@@ -33,14 +33,16 @@ The folder names represent the URL segments, and the menu is built from the fold
 If you add or edit page files, the local dev server will reload in the browser.
 
 - Section pages are located at `content/<section-name>/_index.md`.
-  The underscore is important, and the metadata block should contain `chapter: true`. Note that the text will be centered when `chapter:` is set to `true`.
+  The underscore is important, and the metadata block should contain `chapter: true`.
+  Note that the text will be centered when `chapter:` is set to `true`.
 - Child pages are located at `content/<section-name>/<page-name>/index.md`
 
 Consult the [theme documentation] for more information about content editing.
 
 ### R Markdown
 
-Maybe you want to write in R Markdown, because its Markdown dialect is richer than that provided by Hugo, and you can include code chunks generating different kinds of output (text, tables, figures).
+Maybe you want to write in R Markdown, because its Markdown dialect is richer than that provided by Hugo,
+and you can include code chunks generating different kinds of output (text, tables, figures).
 See the [section about format differences][format differences] in the blogdown documentation.
 To use R markdown, the file extension must be .Rmarkdown or .Rmd instead of .md.
 The running dev server knits R markdown files, and the output files must also be committed.
