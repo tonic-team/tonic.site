@@ -1,6 +1,6 @@
 ---
-title: About us
-
+title: The team
+weight: 9
 ---
 
 
