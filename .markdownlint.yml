@@ -1,0 +1,5 @@
+# Even when we use soft-wrap capable graphical editors, breaking up paragraphs into lines by e.g. sentences helps git.
+# Small changes are easier to spot when a shorter language unit is affected, instead of a full paragraph.
+MD013:
+  line_length: 130 # typographical average
+  code_block_line_length: 120 # convention in many programming languages
