@@ -26,7 +26,7 @@ which is a template of folders to give a similar organisation of files for diffe
 In contrast to the other tools, this first output can be used independently of a git-based technology.
 
 The other tools are extensions making the work with git servers (GIN, GitHub or GitLab) easier.
-[Scripts](tooling/scripts) synchronise content between machines and a Git server via a double click.
+Scripts synchronise content between machines and a Git server via a double click.
 The [Tonic](tooling/tonictool) application automates complex administrative tasks
 like the creation of project repositories and user management.
 
