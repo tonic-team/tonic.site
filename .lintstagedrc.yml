@@ -1,0 +1,4 @@
+"*.{json,markdown,yaml,yml}": prettier --write
+"*.{?(R)md,Rmarkdown}":
+  - prettier --write
+  - markdownlint --fix
