@@ -1,0 +1,3 @@
+overrides:
+  - files: "*.{Rmd,Rmarkdown}"
+    options: { parser: markdown }
