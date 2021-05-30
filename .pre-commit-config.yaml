@@ -1,0 +1,8 @@
+repos:
+  - repo: https://github.com/okonet/lint-staged
+    rev: v11.0.0
+    hooks:
+      - id: lint-staged
+        additional_dependencies:
+          - prettier@2.3.0
+          - markdownlint-cli@0.27.1
