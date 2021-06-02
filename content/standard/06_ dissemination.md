@@ -22,7 +22,7 @@ This folder is separated between different dissemination types, with reports and
 and manuscript on the other side.
 This was done because manuscripts are a particluar research outputs that often requires a special sharing strategy.
 
-{{% / notice warning%}}
+{{% notice warning%}}
 File naming convention and the version control system is particularly important in this folder.
 {{% / notice %}}
 
@@ -41,7 +41,6 @@ This is probably best described by naming files or folders here with:
 
 It is up to you to use folders (for instance to save the abstract and the presentation to a conference at the same place),
 or simply have files listed in the repository.
-
 {{%/  expand%}}
 
 {{% expand "02:manusctipt" %}}
