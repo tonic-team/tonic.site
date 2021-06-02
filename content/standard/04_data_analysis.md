@@ -10,29 +10,26 @@ miror of a GitHub or GitLab repository.
 
 ## Content
 
-This folder will contain either code (in python, R or matlab),or textdescription of the analysis, or both.
-
-
+This folder will contain either code (in python, R or
+matlab), or textdescription of the analysis, or both.
 
 ## Organisation
 
-The content may be organised following the different experiments,
-or by different figures created or a mix of these two.
-In addition we have 2 folder already present in the template:
+The content may be organised following the different
+experiments, or by different figures created or a mix of
+these two. In addition we have 2 folder already present in
+the template:
 
-{{% expand "990_code_libraries" %}}
-Here comes the dependencies of your software,
-it might be the dependencies themselves,
-or a link/miror to the dependencies.
+{{% expand "990\_code\_libraries" %}} Here comes the
+dependencies of your software, it might be the dependencies
+themselves, or a link/miror to the dependencies.
 
-You may want to use a container technology
-to deal with your code libraries.
-{{%/  expand%}}
+You may want to use a container technology to deal with your
+code libraries. {{%/ expand%}}
 
-{{% expand "991_preregistration" %}}
-In order to prove that your experimental design is
-preventing harking and p-hacking,
-you should describe how you will analyze the data
+{{% expand "991\_preregistration" %}} In order to prove that
+your experimental design is preventing harking and
+p-hacking, you should describe how you will analyze the data
 before you actually start collecting it.
 
 Any document that do that should be saved or mirrored here.
