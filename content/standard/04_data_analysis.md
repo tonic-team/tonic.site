@@ -1,18 +1,18 @@
 ---
+
 title: 4 Data analysis
 weight: 5
------
+
+---
 
 {{% notice info%}} In a GIN workflow, it may also be a
-submoduole, miror of a GitHub or GitLab repository. {{% /
+submodule, mirror of a GitHub or GitLab repository. {{% /
 notice %}}
 
 ## Content
 
 This folder will contain either code (in python, R or
 matlab), or textdescription of the analysis, or both.
-
-
 
 ## Organisation
 
