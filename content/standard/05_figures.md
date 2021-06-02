@@ -4,13 +4,15 @@ weight: 6
 ---
 
 {{% notice info%}}
-Here comes figures you created. It is advised to use the `990_shared_figures` folder to save figures ready for the manuscript, as this folder is meant to be shared as a submodule.
+Here comes figures you created. It is advised to use the `990_shared_figures` folder to save figures ready for the manuscript,
+as this folder is meant to be shared as a submodule.
 It will allow links from manuscript to figures to still work when using a different folder organisation based of manuscript edition.
 {{% / notice %}}
 
 ## Content
 
-This folder will contain all figures created during the research process. It is advised to use vector figures (adobe illustrator, or .pdf, .svg files) when possible, as their size does not change with higher quality outputs.
+This folder will contain all figures created during the research process. It is advised to use vector figures (adobe illustrator,
+or .pdf, .svg files) when possible, as their size does not change with higher quality outputs.
 
 ## Organisation
 
