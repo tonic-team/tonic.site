@@ -1,0 +1,34 @@
+{
+  "name": "tonic.site",
+  "version": "0.0.1",
+  "description": "The source of the Tonic documentation site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonic-team/tonic.site.git"
+  },
+  "author": "Tamara Cook <tamara.cook@uni-marburg.de>",
+  "license": "CC-BY-SA-4.0",
+  "bugs": {
+    "url": "https://github.com/tonic-team/tonic.site/issues"
+  },
+  "homepage": "https://gin-tonic.netlify.app",
+  "private": true,
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "markdownlint-cli": "^0.27.1",
+    "prettier": "^2.3.1"
+  },
+  "lint-staged": {
+    "*.{json,markdown,yaml,yml}": "prettier --write",
+    "*.{?(R)md,Rmarkdown}": [
+      "prettier --write",
+      "markdownlint --fix"
+    ]
+  }
+}
