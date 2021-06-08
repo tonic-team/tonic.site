@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier -w . && prettier -w **/*.{Rmd,Rmarkdown}",
+    "lint": "markdownlint **/*.{md,Rmd,Rmarkdown}",
     "prepare": "husky install"
   },
   "repository": {
@@ -25,10 +27,6 @@
     "prettier": "^2.3.1"
   },
   "lint-staged": {
-    "*.{json,markdown,yaml,yml}": "prettier --write",
-    "*.{?(R)md,Rmarkdown}": [
-      "prettier --write",
-      "markdownlint --fix"
-    ]
+    "*": "prettier -w -u"
   }
 }
