@@ -1,6 +1,0 @@
-extends: relaxed
-ignore: |
-  /themes/
-rules:
-  line-length:
-    max: 120

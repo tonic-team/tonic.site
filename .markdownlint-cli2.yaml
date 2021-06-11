@@ -1,0 +1,5 @@
+globs: ['**/*.{md,Rmd,Rmarkdown}']
+ignores:
+  - node_modules/
+  - themes/
+  - report/

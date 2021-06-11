@@ -6,7 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier -w . && prettier -w **/*.{Rmd,Rmarkdown}",
-    "lint": "markdownlint **/*.{md,Rmd,Rmarkdown}",
+    "prelint": "npm run format",
+    "lint": "markdownlint-cli2-fix",
+    "watch": "hugo server --watch",
     "prepare": "husky install"
   },
   "repository": {
@@ -23,8 +25,9 @@
   "devDependencies": {
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
-    "markdownlint-cli": "^0.27.1",
-    "prettier": "^2.3.1"
+    "markdownlint-cli2": "^0.1.3",
+    "prettier": "^2.3.1",
+    "v8r": "^0.5.0"
   },
   "lint-staged": {
     "*": "prettier -w -u"
