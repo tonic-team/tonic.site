@@ -3,6 +3,9 @@ MD013:
   line_length: 160
   code_block_line_length: 120
 MD046: { style: fenced }
+# Unfortunately, this is handled inconsistently by the hugo theme in use
+# Pages receive a title through the frontmatter title, but sections need an explicit h1
+single-h1: false
 
 # These rules are covered by prettier and could potentially lead to conflicts
 MD003: false
