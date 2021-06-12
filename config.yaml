@@ -1,13 +1,13 @@
 baseURL: https://gin-tonic.netlify.app/
 languageCode: en-US
 
-theme: "hugo-theme-learn"
+theme: 'hugo-theme-learn'
 title: Tonic project documentation
 
 ignoreFiles:
   - "\\.Rmd$"
   - "\\.Rmarkdown$"
-  - "_cache$"
+  - '_cache$'
   - "\\.knit\\.md$"
   - "\\.utf8\\.md$"
   - "\\.bib$"

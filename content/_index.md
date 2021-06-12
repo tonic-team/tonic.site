@@ -47,4 +47,4 @@ All of them will be documented on this site.
 Tonic has been initiated to augment the [GIN] (G-Node infrastructure), a version control system for neuroscientific data,
 but isn't restricted to GIN.
 
-[GIN]: https://gin.g-node.org
+[gin]: https://gin.g-node.org

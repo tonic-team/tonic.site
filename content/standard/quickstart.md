@@ -25,8 +25,8 @@ If you want to **add new folders**, please tell us so we can include them in a f
 
 ### Data acquisition and analysis
 
-- Data is organised first following experiments, as subfolder of the ***03_data** folder.
-Make sure to describe every experiment in a readme file and link to the adequate files saved in 02_material_methods.
+- Data is organised first following experiments, as subfolder of the **\*03_data** folder.
+  Make sure to describe every experiment in a readme file and link to the adequate files saved in 02_material_methods.
 
 - Refer to a data organisation guide or a data management plan to organise the files in that folder.
   Any file coming directly from your hardware (raw data) or that is manually created (raw, derived data, or manually analysed data)
@@ -50,7 +50,7 @@ Make sure to describe every experiment in a readme file and link to the adequate
 
 - Put the manuscript (or some important versions of it, if using an external tool for writing it)
   in the **06_disseminations/02_manuscripts** folder.
-You may want to use full URL to embed figures in the manuscript if the repository is open.
+  You may want to use full URL to embed figures in the manuscript if the repository is open.
 
 {{% notice note%}}
 Having figures saved independently of manuscripts will allow you to reuse the same figures

@@ -53,7 +53,7 @@ There are different tools and templates available, like DMPonline or the RDMO to
 
 {{% expand "06_notebook" %}}
 Save digital notebook information here.
-It could be photos of a paper notebook, self-organised text files,  data exported from an electronic lab notebook (ELN).
+It could be photos of a paper notebook, self-organised text files, data exported from an electronic lab notebook (ELN).
 If you are using an ELN, you may better have a link in the project main readme file.
 {{%/  expand%}}
 
