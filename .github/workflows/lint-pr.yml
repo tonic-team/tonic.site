@@ -1,0 +1,23 @@
+name: Format and lint pull requests
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Prettify files
+        uses: creyD/prettier_action@v3.3
+        with:
+          prettier_options: '--write . **/*.{Rmd,Rmarkdown}'
+          commit_message: Apply formatting changes by Prettier
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Lint Markdown files
+        uses: DavidAnson/markdownlint-cli2-action@v2
