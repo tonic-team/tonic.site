@@ -1,8 +1,6 @@
 ---
-
 title: 4 Data analysis
 weight: 5
-
 ---
 
 {{% notice info%}} In a GIN workflow, it may also be a

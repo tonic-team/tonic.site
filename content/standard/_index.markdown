@@ -10,8 +10,8 @@ weight: 1
 
 Read more about the Tonic folder structure and its background. This can be useful,
 
--   … if you’re a user and need to do some manual project maintainance
--   … if you’re a tool developer who wants to contribute or implement a compliant tool
+- … if you’re a user and need to do some manual project maintainance
+- … if you’re a tool developer who wants to contribute or implement a compliant tool
 
 Here is an overview of the standard and its 7 high level folders (project level).
 By adding new folders for new experiments, and by sharing specific subfolders using cloud technologies,
@@ -37,7 +37,7 @@ You can read about the history of the standard in [Colomb et al.](#ref-Colomb:20
 
 <div id="ref-Colomb:2021vl" class="csl-entry">
 
-Colomb, Julien, Thorsten Arendt, Keisuke Sehara, and The Gin-Tonic team. 2021. “Towards a Standardized Research Folder Structure.” *Generation Research*. <https://doi.org/10.25815/WCY6-M233>.
+Colomb, Julien, Thorsten Arendt, Keisuke Sehara, and The Gin-Tonic team. 2021. “Towards a Standardized Research Folder Structure.” _Generation Research_. <https://doi.org/10.25815/WCY6-M233>.
 
 </div>
 
