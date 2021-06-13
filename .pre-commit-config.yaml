@@ -4,5 +4,4 @@ repos:
     hooks:
       - id: lint-staged
         additional_dependencies:
-          - prettier@2.3.0
-          - markdownlint-cli@0.27.1
+          - prettier@2.3.1
