@@ -1,3 +1,6 @@
 overrides:
-  - files: "*.{Rmd,Rmarkdown}"
+  - files: '*.{Rmd,Rmarkdown}'
     options: { parser: markdown }
+proseWrap: preserve
+semi: false
+singleQuote: true
