@@ -10,7 +10,7 @@ It is built using [Hugo] and [blogdown].
 
 ## Contributions
 
-If you're interested in contributing to this site, please see our [Contribution guide]{contributing.md}.
+If you're interested in contributing to this site, please see our [Contribution guide](CONTRIBUTING.md).
 
 ## License
 
