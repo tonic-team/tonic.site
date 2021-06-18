@@ -20,14 +20,17 @@ experiments, or by different figures created or a mix of
 these two. In addition we have 2 folder already present in
 the template:
 
-{{% expand "990\_code\_libraries" %}} Here comes the
+{{% expand "990\_code\_libraries" %}}
+Here comes the
 dependencies of your software, it might be the dependencies
 themselves, or a link/miror to the dependencies.
 
 You may want to use a container technology to deal with your
-code libraries. {{%/ expand%}}
+code libraries.
+{{%/ expand%}}
 
-{{% expand "991\_preregistration" %}} In order to prove that
+{{% expand "991\_preregistration" %}}
+In order to prove that
 your experimental design is preventing harking and
 p-hacking, you should describe how you will analyze the data
 before you actually start collecting it.
