@@ -43,7 +43,7 @@ It is up to you to use folders (for instance to save the abstract and the presen
 or simply have files listed in the repository.
 {{%/  expand%}}
 
-{{% expand "02:manusctipt" %}}
+{{% expand "02:manuscript" %}}
 Here will come the manuscripts for your project.
 This may be a link to a document written on a collaborative working platform (overleaf, googledoc, fiduswriter, pubpub, ....)
 or a document (markdown,latex, docx).
