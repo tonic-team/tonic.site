@@ -17,7 +17,7 @@ Fixes or content can be submitted via fork and pull request on Github.
 
 ## Minor improvements via browser
 
-It is possible and absolutely fine to provide smaller fixes like typo corrections and similar suggestions in a pure browser-based workflow.
+It is possible and absolutely fine to provide fixes and suggestions in a pure browser-based workflow.
 If you hit the _edit this page_ button on a website page, you will be redirected to the respective edit page on Github,
 where you can improve the Markdown source, create a commit and submit it as a pull request.
 If you don't have write access to the repo and if you are a first-time contributor, you will be asked to create a fork before you can edit the page file.
