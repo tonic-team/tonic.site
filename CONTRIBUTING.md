@@ -15,6 +15,34 @@ If you are missing something or have discovered incorrect informations,
 you can use the project's [issue tracker] to briefly describe what you'd like to see on the site.
 Fixes or content can be submitted via fork and pull request on Github.
 
+## Content file structure
+
+The content on this site is authored in Markdown, a lightweight markup language that is rendered to HTML.
+Page files are written in markdown or R markdown and organized in the content folder.
+The folder names represent the URL segments, and the menu is built from the folder structure.
+
+- Chapter pages are located at `content/<chapter-name>/_index.md`.
+  The underscore is important, and the metadata block should contain `chapter: true`.
+  Note that the text will be centered when `chapter:` is set to `true`.
+- Child pages are located either at `content/<chapter-name>/<page-name>/index.md` or at `content/<chapter-name>/<page-name>.md`.
+  If the former variant is used (page bundles), static assets can put directly into the page directory.
+  This can be very useful when assets exclusively belong to a given page.
+
+- If you put a file named `figure5.png` next to a chapter page, that Markdown file can reference the image file with `![Figure 5](figure5.png)`.
+- If more Markdown files are located next to the chapter page file without their own child directory,
+  they have to reference the image with a `../` prefix, e.g. `![figure 5](../figure5.png)`,
+  as if the Markdown files were located in their own subdirectories.
+- If you put each Markdown file in its own subdirectory, the `../` makes sense,
+  because the image is located one level up in relation to the Markdown file.
+- If you put the image in a directory with a non-chapter Markdown file (a leaf bundle),
+  the link becomes `![Figure 5](figure5.png)` again.
+
+The `static` directory is an alternative place where you can put more global static assets.
+It contains files that are directly made available according to their folder structure
+The file `static/images/logo.svg` can e.g. referenced in Markdown or HTML files as `/images/logo.svg`.
+
+Consult the [theme documentation] for more information about content editing.
+
 ## Minor improvements via browser
 
 It is possible and absolutely fine to provide fixes and suggestions in a pure browser-based workflow.
@@ -86,20 +114,6 @@ And of course both can be combined, e.g., one can open a PR in the browser but f
 6. Merge
    - The PR is clean, approved, and thus ready for merge.
    - A maintainer will merge it.
-
-### Content file structure
-
-The content on this site is authored in Markdown, a lightweight markup language that is rendered to HTML.
-Page files are written in markdown or R markdown and organized in the content folder.
-The folder names represent the URL segments, and the menu is built from the folder structure.
-
-- Chapter pages are located at `content/<chapter-name>/_index.md`.
-  The underscore is important, and the metadata block should contain `chapter: true`.
-  Note that the text will be centered when `chapter:` is set to `true`.
-- Child pages are located either at `content/<chapter-name>/<page-name>/index.md` or at `content/<chapter-name>/<page-name>.md`.
-  If the former variant is used (page bundles), static assets can put directly into the page directory.
-
-Consult the [theme documentation] for more information about content editing.
 
 ### Content editing and clean files
 
