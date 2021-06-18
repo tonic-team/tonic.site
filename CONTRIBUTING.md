@@ -107,9 +107,10 @@ And of course both can be combined, e.g., one can open a PR in the browser but f
    - If a reviewer rejects your PR and provides feedback, you will have to discuss or integrate the feedback
      by adding fixup commits to your PR branch until it gets approved.
      This also triggers the checking and cleaning cycle.
-   - Meanwhile, if the main branch receives new commits and your PR can't be merged anymore due to merge conflicts,
+   - Meanwhile, if the main branch receives new commits and diverges from your PR branch,
      please don't merge main into your branch, but rebase your branch on main and force-push your branch.
      This keeps the commit history linear.
+     See [this tutorial][merge-rebase] for a more in depth explanation of the topic.
      - Finally, a reviewer might approve your PR
 6. Merge
    - The PR is clean, approved, and thus ready for merge.
@@ -182,6 +183,7 @@ blogdown::server_stop()
 [issue tracker]: https://github.com/tonic-team/tonic.site/issues
 [markdownlint]: https://github.com/DavidAnson/markdownlint
 [markdownlint-demo]: https://dlaa.me/markdownlint/
+[merge-rebase]: https://www.atlassian.com/git/tutorials/merging-vs-rebasing
 [node]: https://nodejs.org
 [pandoc's markdown]: https://pandoc.org/MANUAL.html#pandocs-markdown
 [prettier]: https://prettier.io
