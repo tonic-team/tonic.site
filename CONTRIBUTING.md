@@ -59,7 +59,7 @@ And of course both can be combined, e.g., one can open a PR in the browser but f
    - Create a new local branch from the main branch, name it after your contribution
 2. Uploading your Changes (iterative)
    - Make your improvements
-   - Please try to write one sentence or clause per line, as far as it makes sense. This improves git diff and file reviews.
+   - Please try to write one sentence or clause per line, as far as it makes sense. This improves `git diff`(previews of differences) and file reviews.
    - Try to format your edited files with [Prettier] and lint Markdown with [markdownlint].
    - commit to the new branch.
    - Push the new branch to your remote
