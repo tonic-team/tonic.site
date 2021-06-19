@@ -6,8 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier -w . **/*.{Rmd,Rmarkdown}",
+    "spell": "cspell **/*.{md,Rmd,Rmarkdown}",
     "prelint": "npm run format",
     "lint": "markdownlint-cli2-fix",
+    "postlint": "npm run spell",
     "watch": "hugo server --watch --navigateToChanged",
     "prepare": "husky install"
   },
@@ -23,6 +25,7 @@
   "homepage": "https://gin-tonic.netlify.app",
   "private": true,
   "devDependencies": {
+    "cspell": "^5.6.6",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
     "markdownlint-cli2": "^0.1.3",
