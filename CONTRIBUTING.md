@@ -1,7 +1,9 @@
 # Contributing to the Tonic site
 
 Thank you for taking the time to contribute to the Tonic site.
-Contributions are welcome and this document is intended to help them to find their way into the project.
+Contributions are welcome and this document is intended to help you find your way into the project.
+While we will appreciate if your pull request contains correctly styled code,
+we will be willing to clean your pull requests ourselves.
 
 ## What can be contributed?
 
