@@ -1,5 +1,7 @@
 ---
 title: Home
+# cSpell:ignore tonictool
+# cSpell:ignore neuro
 ---
 
 # GIN-Tonic: a digital shelf for your research files
@@ -13,7 +15,7 @@ While the tools were developed in order to be integrated in the G-node Infrastru
 
 The Tonic project aims to develop a common file structure for (neuro-)scientific research projects,
 as well as software to facilitate its use.
-Our ultimate goal is to facilitate data, project and lab managment
+Our ultimate goal is to facilitate data, project and lab management
 using an open source approach and technologically relatively simple approach.
 
 [We are data managers](about) who support project templates and tooling for project structure creation, extension and validation.
@@ -22,12 +24,12 @@ This site documents the tools and gives guidelines on how to best use them.
 ## Overview
 
 This project stands on a [research folder structure standard](standard),
-which is a template of folders to give a similar organisation of files for different research projects.
+which is a template of folders to give a similar organization of files for different research projects.
 In contrast to the other tools, this first output can be used independently of a git-based technology.
 
 The other tools are extensions making the work with git servers (GIN, GitHub or GitLab) easier.
-Scripts synchronise content between machines and a Git server via a double click.
-The [Tonic](tooling/tonictool) application automates complex administrative tasks
+Scripts synchronize content between machines and a Git server via a double click.
+The [Tonic] application automates complex administrative tasks
 like the creation of project repositories and user management.
 
 ## Development status
@@ -48,3 +50,4 @@ Tonic has been initiated to augment the [GIN] (G-Node infrastructure), a version
 but isn't restricted to GIN.
 
 [gin]: https://gin.g-node.org
+[tonic]: /tooling/tonictool

@@ -4,18 +4,18 @@ weight: 5
 ---
 
 {{% notice info%}}
-In a GIN workflow, it may also be a submoduole,
-miror of a GitHub or GitLab repository.
+In a GIN workflow, it may also be a submodule,
+mirror of a GitHub or GitLab repository.
 {{% / notice %}}
 
 ## Content
 
 This folder will contain either code (in python, R or
-matlab), or textdescription of the analysis, or both.
+matlab), or textual description of the analysis, or both.
 
-## Organisation
+## Organization
 
-The content may be organised following the different
+The content may be organized following the different
 experiments, or by different figures created or a mix of
 these two. In addition we have 2 folder already present in
 the template:
@@ -23,7 +23,7 @@ the template:
 {{% expand "990\_code\_libraries" %}}
 Here comes the
 dependencies of your software, it might be the dependencies
-themselves, or a link/miror to the dependencies.
+themselves, or a link/mirror to the dependencies.
 
 You may want to use a container technology to deal with your
 code libraries.

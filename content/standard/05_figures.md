@@ -6,7 +6,7 @@ weight: 6
 {{% notice info%}}
 Here comes figures you created. It is advised to use the `990_shared_figures` folder to save figures ready for the manuscript,
 as this folder is meant to be shared as a submodule.
-It will allow links from manuscript to figures to still work when using a different folder organisation based of manuscript edition.
+It will allow links from manuscript to figures to still work when using a different folder organization based of manuscript edition.
 {{% / notice %}}
 
 ## Content
@@ -14,9 +14,9 @@ It will allow links from manuscript to figures to still work when using a differ
 This folder will contain all figures created during the research process. It is advised to use vector figures (adobe illustrator,
 or .pdf, .svg files) when possible, as their size does not change with higher quality outputs.
 
-## Organisation
+## Organization
 
-Similarly to the analysis folder, The content may be organised following the different
+Similarly to the analysis folder, The content may be organized following the different
 experiments, or by different figures created or a mix of
 these two. In addition we have one folder already present in
 the template:

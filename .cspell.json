@@ -1,13 +1,36 @@
 {
   "version": "0.1",
-  "language": "en",
+  "language": "en-US",
   "ignorePaths": [
     "**/node_modules/**",
     "**/vscode-extension/**",
     "**/.git/**",
     ".vscode",
     "package-lock.json",
-    "report"
+    "report",
+    "themes"
   ],
-  "words": []
+  "words": [
+    "bibtex",
+    "blogdown",
+    "bookdown",
+    "Colomb",
+    "DMPonline",
+    "Fidus",
+    "markdownlint",
+    "neuro",
+    "neuroimaging",
+    "neuroscience",
+    "neuroscientific",
+    "NFDI",
+    "pandoc",
+    "Prettier",
+    "RDMO",
+    "Rmarkdown",
+    "RRID",
+    "subfolder",
+    "subfolders",
+    "zenodo",
+    "zotero"
+  ]
 }

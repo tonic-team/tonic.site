@@ -13,9 +13,9 @@ The use of submodule technology may help with that.
 This folder will contain datasets, that is information collected, gathered or created during the research project.
 One project usually has several experiments and each experiment shall get its own folder.
 
-## Organisation
+## Organization
 
-The organisation is quite loose for the time being,
+The organization is quite loose for the time being,
 but specific templates for your data types may exist (see BIDS format for neuroimaging data for example).
 
 - Each experiment/dataset gets one subfolder.
