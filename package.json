@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "format": "prettier -w . **/*.{Rmd,Rmarkdown}",
-    "spell": "cspell **/*.{md,Rmd,Rmarkdown}",
+    "spell": "cspell '**/*.{md,Rmd,Rmarkdown}'",
     "prelint": "npm run format",
     "lint": "markdownlint-cli2-fix",
     "postlint": "npm run spell",
