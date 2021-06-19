@@ -125,7 +125,7 @@ but you should consider using a more powerful text editor which is suited for ed
 The project wiki contains a [step-by-step guide for Visual Studio Code][vscode-guide],
 but e.g. Sublime Text or Atom could be good choices as well.
 These editors can directly integrate with [Prettier] and [Markdownlint],
-and thus let you catch and fix many errors before they are commited.
+and thus let you catch and fix many errors before they are committed.
 
 If you want to use Prettier and Markdownlint on the command line, you can install [node] and use the project's npm scripts.
 
@@ -166,14 +166,14 @@ See [Pandoc's Markdown] and the [Markdown extensions by bookdown] for an overvie
 In addition, you can include code chunks generating different kinds of output (text, tables, figures).
 See the [section about format differences][format differences] in the blogdown documentation.
 
-To write in R markdown, the file extension must be .Rmarkdown (preferred) or .Rmd instead of .md.
+To write in R markdown, the file extension must be _.Rmarkdown_ (preferred) or _.Rmd_ instead of _.md_.
 R Markdown files must be knitted and the resulting output files must be committed to take effect.
 You can use the preview server via [blogdown] package to knit them automatically.
 
 ```r
 # Install blogdown package in R (if not already done) and restart R in the project root
 install.packages("blogdown")
-# Run the development server or use the RStudio addin “Serve Site”
+# Run the development server or use the RStudio add-in “Serve Site”
 blogdown::serve_site()
 # Quit R or stop the server when you're done
 blogdown::server_stop()
