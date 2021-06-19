@@ -10,10 +10,10 @@ we will be willing to clean your pull requests ourselves.
 There are several ways to contribute:
 
 - Ideas, suggestions, issue reports
-- smaller fixes on existing pages
+- Smaller fixes on existing pages
 - Content: new pages or larger additions to existing pages
 
-If you are missing something or have discovered incorrect informations,
+If you are missing something or have discovered incorrect information,
 you can use the project's [issue tracker] to briefly describe what you'd like to see on the site.
 Fixes or content can be submitted via fork and pull request on Github.
 
@@ -62,17 +62,17 @@ but you can use the [prettier playground] to preformat your markdown Before you 
 4. Commit and submit
 
 Some quality checks will run on the PR before it is ready for review.
-This takes a moment, and you will probably be informed per email if your PR introduces an issue.
+This takes a moment, and you will probably be informed via email if your PR introduces an issue.
 You can fix the reported issues by adding more commits to the PR.
 It's relatively unlikely to introduce an error in a small change, but not impossible.
-The Markdown files are checked using [markdownlint], a tool which helps to discaver errors and inconsistencies in Markdown files..
+The Markdown files are checked using [markdownlint], a tool which helps to discover errors and inconsistencies in Markdown files..
 You can use its browser-based [online demo][markdownlint-demo] to inspect the file you have edited and figure out what went wrong.
 
 ## Contributions via local setup
 
 The browser-based workflow might be sufficient for smaller improvements, but for larger contributions,
-especially if you want to add new pages or intend to contribute for multiple times,
-the recommended way is cloning the forked project to your machine and preparing your changes locally in a suited text editor.
+especially if you want to add new pages or intend to contribute multiple times,
+the recommended way is cloning the forked project to your machine and preparing your changes locally in a suitable text editor.
 This makes it easier to write clean files and to preview the result in the local development server before any PR is submitted.
 
 ### Workflow overview
@@ -91,7 +91,7 @@ And of course both can be combined, e.g., one can open a PR in the browser but f
    - Make your improvements
    - Please try to write one sentence or clause per line, as far as it makes sense. This improves `git diff`(previews of differences) and file reviews.
    - Try to format your edited files with [Prettier] and lint Markdown with [markdownlint].
-   - commit to the new branch.
+   - Commit to the new branch.
    - Push the new branch to your remote
 3. Requesting the improvements to be merged
    - On Github, create a pull request to merge the new branch into the main branch
