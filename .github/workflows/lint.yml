@@ -22,7 +22,7 @@ jobs:
       - name: Lint Markdown files
         uses: DavidAnson/markdownlint-cli2-action@v2
       - name: Spell-check Markdown files
-        uses: streetsidesoftware/cspell-action@v1
+        uses: streetsidesoftware/cspell-action@v1.2.4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           files: '**/*.{md,Rmd,Rmarkdown}'
