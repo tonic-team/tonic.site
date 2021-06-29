@@ -1,6 +1,7 @@
 ---
 title: 6 Dissemination
 weight: 7
+# cSpell:ignore textdoc
 ---
 
 {{% notice info%}}
@@ -8,7 +9,7 @@ This folder is usually not shared in its entirety, but specific subfolder are us
 
 One may want to keep all dissemination material in one place, independently of the project they belong to.
 To this end, you may want to use links,
-folder aliases or cloud technologies to reorganise the same content at different places.
+folder aliases or cloud technologies to reorganize the same content at different places.
 {{% / notice %}}
 
 ## Content
@@ -16,11 +17,11 @@ folder aliases or cloud technologies to reorganise the same content at different
 This folder contains files meant for scholarly communication and reports. It ranges from a presentation for a lab report,
 to a conference poster or a manuscript.
 
-## Organisation
+## Organization
 
 This folder is separated between different dissemination types, with reports and conference material on one side,
 and manuscript on the other side.
-This was done because manuscripts are a particluar research outputs that often requires a special sharing strategy.
+This was done because manuscripts are a particular research outputs that often requires a special sharing strategy.
 
 {{% notice warning%}}
 File naming convention and the version control system is particularly important in this folder.
@@ -45,7 +46,7 @@ or simply have files listed in the repository.
 
 {{% expand "02:manuscript" %}}
 Here will come the manuscripts for your project.
-This may be a link to a document written on a collaborative working platform (overleaf, googledoc, fiduswriter, pubpub, ....)
+This may be a link to a document written on a collaborative working platform (Overleaf, Google Docs, Fidus Writer, PubPub, …)
 or a document (markdown,latex, docx).
 
 You are advised to link or save the data coming from your reference manager

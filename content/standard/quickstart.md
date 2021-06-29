@@ -1,11 +1,12 @@
 ---
 title: Quick start
 weight: 1
+# cSpell:ignore textreports
 ---
 
 {{% notice info%}}
 This is the minimal information you should read before using the standard.
-It is organised via when you will use what folder and does not go into details.
+It is organized via when you will use what folder and does not go into details.
 {{% / notice %}}
 
 {{% notice warning%}}
@@ -25,10 +26,10 @@ If you want to **add new folders**, please tell us so we can include them in a f
 
 ### Data acquisition and analysis
 
-- Data is organised first following experiments, as subfolder of the **\*03_data** folder.
+- Data is organized first following experiments, as subfolder of the **\*03_data** folder.
   Make sure to describe every experiment in a readme file and link to the adequate files saved in 02_material_methods.
 
-- Refer to a data organisation guide or a data management plan to organise the files in that folder.
+- Refer to a data organization guide or a data management plan to organize the files in that folder.
   Any file coming directly from your hardware (raw data) or that is manually created (raw, derived data, or manually analysed data)
   should be in the experiment folder.
 

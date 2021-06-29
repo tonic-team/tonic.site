@@ -19,7 +19,7 @@ For instance, reagents shall be best documented at the time of purchase.
 
 One can use RRID numbers for reagents, and doi for protocols as unique identifiers.
 
-## Organisation
+## Organization
 
 One may use a key reagent table (a spreadsheet) to collect information about reagents.
 
