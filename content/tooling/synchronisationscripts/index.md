@@ -27,7 +27,7 @@ The current version of the file is:
 
 Note that synchronisation does work with a gin identification, but the initialisation of the script requires SSH access (gin does not support submodules).
 
-A relatively complex process will allow windows users to call the bash script.
+We are testing different process and workflow to allow windows users to call the bash script.
 
 ### Installation
 
