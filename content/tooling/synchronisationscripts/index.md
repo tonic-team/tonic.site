@@ -19,11 +19,10 @@ Here are listed our wish for the scripts, note that the present version does not
 
 The current version of the file is:
 
-- Some bash scripts (one master + other in `.script` folder) 
+- Some bash scripts (one master + other in `.script` folder)
 - Work for GIN repositories only,`
 - Work with submodules (all synchronised using a single commit message).
 - Also initialise submodules (needs SSH access)
-
 
 Note that synchronisation does work with a gin identification, but the initialisation of the script requires SSH access (gin does not support submodules).
 
