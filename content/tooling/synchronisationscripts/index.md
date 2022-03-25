@@ -16,9 +16,10 @@ and it automate complex action when there are submodules.
 ## Current Version
 
 The current version of the file is:
-- a bash script 
-- work for GIN repositories only,
-- work with submodules (all synchronised using a single commit message).
+- Some bash scripts (one master + other in `.script` folder) 
+- Work for GIN repositories only,`
+- Work with submodules (all synchronised using a single commit message).
+- Also initialise submodules (needs SSH access)
 
 A relatively complex process will allow windows users to call the bash script.
 
@@ -45,3 +46,11 @@ how the script will deal with large files pushed via the git annex technology. T
 - `syncopt="download"`: Downloads and keeps all large file content on the local version.
 - `syncopt="keep"`: Keeps existing local large file content, but do not downlaod extra files
 - `syncopt="remove"`: Removing all local large file content once they are uploaded.
+
+## troubleshooting
+
+### erasing a submodule
+
+- use the webservice to delete the repo (optional)
+- run `git rm <path-to-submodule` in a terminal in the main repo folder
+- run the sync script again
