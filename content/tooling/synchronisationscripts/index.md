@@ -22,10 +22,11 @@ The current version of the file is:
 - Some bash scripts (one master + other in `.script` folder) 
 - Work for GIN repositories only,`
 - Work with submodules (all synchronised using a single commit message).
-- Also initialise submodules (needs SSH access)
+- Also initialize submodules (needs SSH access)
 
 
-Note that synchronisation does work with a gin identification, but the initialisation of the script requires SSH access (gin does not support submodules).
+Note that synchronisation does work with a gin identification, 
+but the initialization of the script requires SSH access (gin does not support submodules).
 
 We are testing different process and workflow to allow windows users to call the bash script.
 
@@ -54,7 +55,7 @@ how the script will deal with large files pushed via the git annex technology. T
 
 ## troubleshooting
 
-### erasing a submodule
+### Erasing a submodule
 
 - use the webservice to delete the repo (optional)
 - run `git rm <path-to-submodule` in a terminal in the main repo folder
