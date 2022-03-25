@@ -9,7 +9,9 @@ the data will be synchronized.
 Users can therefore use GIN-Tonic without using the command line,
 and it automate complex action when there are submodules.
 
-- both on windows, mac and linux
+Here are listed our wish for the scripts, note that the present version does not fulfil the whole list.
+
+- work on windows, mac and linux
 - work also when data is in (different) submodules
 - work with GIN and other git based repositories
 
