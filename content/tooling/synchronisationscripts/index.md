@@ -26,12 +26,9 @@ The current version of the file is:
 - Works with submodules (all synchronised using a single commit message).
 - Also initialize submodules
 
-
-
-Note that synchronisation does work with a gin identification only, 
+Note that synchronisation does work with a gin identification only,
 but the initialization of the repository requires SSH access
 (gin does not support submodules).
-
 
 We are testing different process and workflow to allow windows users to call the bash script.
 
@@ -45,7 +42,7 @@ We are testing different process and workflow to allow windows users to call the
 
 #### Windows
 
-- Copy the `sync`, the `sync.bat` and the `.script` files and folder  found at https://github.com/tonic-team/synchronisation_scripts into you repository.
+- Copy the `sync`, the `sync.bat` and the `.script` files and folder found at https://github.com/tonic-team/synchronisation_scripts into you repository.
 - [install bash for windows via cygwin](https://github.com/tonic-team/synchronisation_scripts/blob/main/windows-workflow.md)
 - double click the `sync.bat` script.
 
@@ -65,11 +62,10 @@ as well as the use of non-GIN repositories.
 Creating a windows version of the script might then be easier.
 Alternatively and in addition, we want to use Git-bash instead of cygwin.
 
-
 ## Troubleshooting
 
 ### Erasing a submodule
 
 - use the webservice to delete the repo (optional)
-- run `git rm -rf <path-to-submodule>` in a terminal in the main repo folder, all submodule inside the path will be erase (-r is for recursive) 
+- run `git rm -rf <path-to-submodule>` in a terminal in the main repo folder, all submodule inside the path will be erase (-r is for recursive)
 - run the sync script again

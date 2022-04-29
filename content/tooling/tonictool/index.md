@@ -22,8 +22,9 @@ or a derived template using submodules.
 - Optionally [synchronization scripts](/tooling/synchronisationscripts/) may be added to the template.
 - Create a json file provide information about the GIN server,
   the specific user credentials and the template to be used.
-  
+
 2. Tonic installation
+
 - Get tonic from Github
 - Get you json file ready and create a `.db` file to save tonic log.
 - Follow instructions (in the docs) to install it via docker.
