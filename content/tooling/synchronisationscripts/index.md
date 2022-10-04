@@ -34,9 +34,9 @@ We are testing different process and workflow to allow windows users to call the
 
 ### Installation
 
-#### MAC/LINUX:
+#### MAC/LINUX
 
-- Copy the `sync` script and the `.script` folder found at https://github.com/tonic-team/synchronisation_scripts into you repository.
+- Copy the `sync` script and the `.script` folder found at [https://github.com/tonic-team/synchronisation_scripts](https://github.com/tonic-team/synchronisation_scripts) into you repository.
 - open a terminal in that folder and type `chmod +x sync` so the file will be executed on a double click.
 - double click the `sync` script.
 
