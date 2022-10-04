@@ -42,14 +42,15 @@ We are testing different process and workflow to allow windows users to call the
 
 #### Windows
 
-- Copy the `sync`, the `sync.bat` and the `.script` files and folder found at https://github.com/tonic-team/synchronisation_scripts into you repository.
+- Copy the `sync`, the `sync.bat` and the `.script` files and folder found at [https://github.com/tonic-team/synchronisation_scripts](https://github.com/tonic-team/synchronisation_scripts) into you repository.
 - [install bash for windows via cygwin](https://github.com/tonic-team/synchronisation_scripts/blob/main/windows-workflow.md)
 - double click the `sync.bat` script.
 
 ## Syxnc Options
 
 By setting one parameter at the start of the script at line 19, one can choose
-how the script will deal with large files pushed via the git annex technology. To set this up, open `sync` with a text editor and modify the option:
+how the script will deal with large files pushed via the git annex technology.
+To set this up, open `sync` with a text editor and modify the option:
 
 - `syncopt="download"`: Downloads and keeps all large file content on the local version.
 - `syncopt="keep"`: Keeps existing local large file content, but do not downlaod extra files
