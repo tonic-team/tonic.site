@@ -10,7 +10,7 @@ Users can therefore use GIN-Tonic without using the command line,
 and it automatize complex action when there are submodules.
 
 Here are listed our wish for the scripts
-(the present version does not fulfil the whole list).
+(the present version does not fulfill the whole list).
 
 - works on windows, mac and linux
 - works also when data is in (different) submodules
@@ -26,7 +26,7 @@ The current version of the file is:
 - Works with submodules (all synchronised using a single commit message).
 - Also initialize submodules
 
-Note that synchronisation does work with a gin identification only,
+Note that synchronization does work with a gin identification only,
 but the initialization of the repository requires SSH access
 (gin does not support submodules).
 
@@ -36,13 +36,15 @@ We are testing different process and workflow to allow windows users to call the
 
 #### MAC/LINUX
 
-- Copy the `sync` script and the `.script` folder found at [https://github.com/tonic-team/synchronisation_scripts](https://github.com/tonic-team/synchronisation_scripts) into you repository.
+- Copy the `sync` script and the `.script` folder found at
+  [https://github.com/tonic-team/synchronisation_scripts](https://github.com/tonic-team/synchronisation_scripts) into you repository.
 - open a terminal in that folder and type `chmod +x sync` so the file will be executed on a double click.
 - double click the `sync` script.
 
 #### Windows
 
-- Copy the `sync`, the `sync.bat` and the `.script` files and folder found at [https://github.com/tonic-team/synchronisation_scripts](https://github.com/tonic-team/synchronisation_scripts) into you repository.
+- Copy the `sync`, the `sync.bat` and the `.script` files and folder found at
+  [https://github.com/tonic-team/synchronisation_scripts](https://github.com/tonic-team/synchronisation_scripts) into your repository.
 - [install bash for windows via cygwin](https://github.com/tonic-team/synchronisation_scripts/blob/main/windows-workflow.md)
 - double click the `sync.bat` script.
 
@@ -68,5 +70,6 @@ Alternatively and in addition, we want to use Git-bash instead of cygwin.
 ### Erasing a submodule
 
 - use the webservice to delete the repo (optional)
-- run `git rm -rf <path-to-submodule>` in a terminal in the main repo folder, all submodule inside the path will be erase (-r is for recursive)
+- run `git rm -rf <path-to-submodule>` in a terminal in the main repo folder,
+  all submodule inside the path will be erase (-r is for recursive)
 - run the sync script again
