@@ -69,5 +69,5 @@ Alternatively and in addition, we want to use Git-bash instead of cygwin.
 
 - use the webservice to delete the repo (optional)
 - run `git rm -rf <path-to-submodule>` in a terminal in the main repo folder,
-all submodule inside the path will be erase (-r is for recursive)
+  all submodule inside the path will be erase (-r is for recursive)
 - run the sync script again
