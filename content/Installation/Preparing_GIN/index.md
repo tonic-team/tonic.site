@@ -9,7 +9,7 @@ Create an organisation called "G-Node", templates and help page (wiki) will be a
 
 ## Help pages
 
-Create a repository called INFO in this organisation, 
+Create a repository called INFO in this organisation,
 
 - `git clone git@gin.g-node.org:/G-Node/Info.wiki.git``
 - `cd Info.wiki``
@@ -17,6 +17,3 @@ Create a repository called INFO in this organisation,
 - `git push -f`
 
 Now you can also modify the wiki pages offline and use git function to push the changes.
-
-
-
