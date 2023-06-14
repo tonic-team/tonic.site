@@ -1,7 +1,7 @@
 ---
 title: Installation
 chapter: true
-weight: 4
+weight: 8
 ---
 
 # Installation

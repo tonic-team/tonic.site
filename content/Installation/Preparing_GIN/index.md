@@ -1,5 +1,6 @@
 ---
 title: Preparing your GIN instance
+weight: 1
 ---
 
 ## G-Node organisation

@@ -1,12 +1,25 @@
 ---
 title: Preparing the template repository
+weight: 2
 ---
 
-# Start from GitHub template
+## Start from GitHub template
+
+Refer to [Research folder structure quick start guide ](/standard), clone the repository or download its content
 
 ## Add submodules
 
+You can either add submodules, or modify folders to become submodules.
+
+
 ## Add options for datalad
+
+You should create datalad repositories with `datalad create -force -c text2git -r``
+
+Note that you may not want to use the text2git option for all submodules, you can modify the .gitattribute file by hand to modify the options.
+
+If you want to have files unlocked by default, run `git annex config --set  annex.addunlocked true`.
+
 
 ## Clean history
 
