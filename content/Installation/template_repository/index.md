@@ -17,7 +17,7 @@ You can either add submodules, or modify folders to become submodules.
 Using datalad, you can create the submodules with:
 ```
 datalad create -f -c text2git -d . 06_dissemination 
-datalad create -f -d . 03_data/001_rawdata  
+datalad create -d . 03_data/001_rawdata  
 datalad create -d . 03_data/001_deriveddata
 datalad create --no-annex -d . 04_data_analysis/001_analysiscode
 datalad create -f -c text2git -d . 05_figures/990_shared_figures
@@ -57,7 +57,7 @@ cd ../../
 
 You will need to add an application token for your user, then create the sibling with
 
-`datalad create-sibling-gin tonictests/template_01 -s gin2 -r --api https://gindata.biologie.hu-berlin.de --existing reconfigure --credential juliencolomb`
+`datalad create-sibling-gin tonictests/template_01 -s gin -r --api https://gindata.biologie.hu-berlin.de --existing reconfigure --credential juliencolomb`
 
 - change the api with the address of your GIN instance, you do not have to specify the port.
 - change credential with your username
@@ -65,13 +65,20 @@ You will need to add an application token for your user, then create the sibling
 - you may change the name of the repository
 
 
-The .gitmodules files needs to be corrected by hand at this point. The `URL` entry will not be correct. You need to modify it with `..\template_01-06_dissemination` and so on. change every slash into `-`.
+The .gitmodules files needs to be corrected by hand at this point. The `URL` entry will not be correct. You need to modify it with `../template_01-06_dissemination` and so on. change every slash into `-`.
+
+## Add scripts
+
+You may want to add scripts for the udpates of repositories, see the [script section of this website](/tooling/synchronisationscripts/) and directly the github page at https://github.com/tonic-team/synchronisation_scripts
+
+DO NOT USE the scripts to push the template, as scripts usually add other elements (extra submodules for example) you do not want here.
 
 ## Manual additions
 
-You may want to add extra information and readme files, especially in the newly created submodules (the one with no -f above).
+You may want to add extra information and readme files, especially in the newly created submodules (the one with no `-f` above).
 
-If you want 001_analysiscode to be git only (no git-annex at all), 
+
+
 ## Push data
 
 you will first need to save changes `datalad save -r -m "template created"`
@@ -79,7 +86,11 @@ Then push your changes `datalad push --to gin -r`
 
 
 
-## Clean history
+## Clean history and rename branch
+
+Until GIN is fixed, the sibling is 
+
+and can recognize a "main" branch as the one to be used as head, the main bran
 
 The following code will create a new branch "a_main" with all the template but no git commit history, so that research repositories start in a fresh state.
 
@@ -96,7 +107,7 @@ you may have to checkout to that branch.
 ```
 git checkout --orphan a_main
 git add -A
-git commit -am "Template initialisation"
+git commit -m "Template initialisation"
 git push --set-upstream origin a_main
 ```
 Then make the a_main branch the default branch, on the browser (Settings::Branches).
