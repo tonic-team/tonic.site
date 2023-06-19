@@ -11,6 +11,8 @@ The script ask for a commit message that will be used for all repositories updat
 Users can therefore use GIN-Tonic without using the command line,
 and it automatize complex actions when there are submodules.
 
+You will find the scripts at https://github.com/tonic-team/synchronisation_scripts.
+
 ## version 0.0.9
 
 In this version, we have two possibilities. One can either use an older version based on GIN-cli and running via a bash script, or use the datalad-based script. Windows user should opt for the latter one.
@@ -25,13 +27,13 @@ Executable scripts should be in the main parent folder of the parent repository,
 
 ### Make it executable
 
-While .bat scripts are executable per default on windows machine, you will need to make the UNIX script executable. For this you will need to run `chmod +x sync_unix` or `chmod +x sync_gin_unix` depending on which script you want to use.
+While .bat scripts are executable per default on windows machine, you will need to make the UNIX script executable. For this you will need to run `chmod +x sync_unix` or `chmod +x sync_gin_unix` in the parent repository folder, depending on which script you want to use.
 
-### git annex file locking
+### Git annex - file locking
 
 The GIN-cli script will keep files unlocked per default (as [GIN-cli does](https://gin.g-node.org/G-Node/Info/wiki/GIN+CLI+Usage+Tutorial#file-locking).
 
-To get the same behavior using the datalad script, one needs to run `git annex config --set  annex.addunlocked true` in the template repository (this will modify the `annex branch` of your repository.)
+To get the same behavior using the datalad script, one needs to run `git annex config --set  annex.addunlocked true` in the repository (this will modify the `annex branch` of your repository.)
 
 ### Requirement
 
@@ -79,7 +81,11 @@ We then moved to use datalad in scripts, as it is easier to make it work on wind
 
 ### Windows
 
-- It may be tricky to install everything on Windows. Especially ssh keys do not work the same. If you can reinstall everything fresh when you encounter an issue with the installation.
+- It may be tricky to install everything on Windows. Especially ssh keys do not work the same. Reinstall everything fresh when you encounter an issue with the installation.
+
+### Data on server
+
+- If you are using a linux server to store your data, you will not be able to run the .bat script. We do not have yet a solution for this use case.
 
 ### Erasing a submodule
 
