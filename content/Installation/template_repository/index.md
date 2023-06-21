@@ -3,19 +3,19 @@ title: Preparing the template repository
 weight: 2
 ---
 
-## Start from GitHub template
+## Start from GitHub template and add submodules
 
 Refer to [Research folder structure quick start guide ](/standard), clone the repository or download its content.
 
 Make it a datalad repository with `datalad create -f -c text2git`
 
-## Add submodules
-
 You can either add submodules, or modify folders to become submodules.
 
-Using datalad, you can create the submodules with:
+Using datalad, you can create the repo and submodules with:
 
 ```
+datalad create -f -c text2git
+
 datalad create -f -c text2git -d . 06_dissemination
 datalad create -d . 03_data/001_rawdata
 datalad create -d . 03_data/001_deriveddata
@@ -35,9 +35,9 @@ create put datalad and git-annex info, `-c text2git` tells it to put text into g
 `-f` will force the creation if the folder already exists.
 `--no-annex` makes it a git-only repository)
 
-## Add options for datalad
+## Add options for datalad and add readme files
 
-We will run `git annex config --set  annex.addunlocked true` in some datasets. There, annex files will not be locked when using datalad save or the scripts (takes twice as much space in non-windows computer, but will allow people to change binary files without needing to unlock them first).
+We will run `git annex config --set  annex.addunlocked true` in some datasets. There, annex files will not be locked when using datalad save or the scripts (takes twice as much space in non-windows computer, but will allow people to change binary files without needing to unlock them first). We will also populate readme file and make sure they are not git-annexed by setting md files to be added on git on the repository not having the "text2git" option.
 
 ```
 git annex config --set  annex.addunlocked true
@@ -46,20 +46,56 @@ git annex config --set  annex.addunlocked true
 cd ../05_figures/990_shared_figures
 git annex config --set  annex.addunlocked true
 cd ../../
+
+echo "**/*.md annex.largefiles=nothing" >> 03_data/001_rawdata/.gitattributes
+echo "**/*.md annex.largefiles=nothing" >> 03_data/001_deriveddata/.gitattributes
+
+echo "
+Here comes the raw data (that is data coming directly from the research hardware used, or manually entered (for example in spreadsheets))
+
+It is good practive to never modify files here, make copies in the derived data folder if you need to clean the data." >> 03_data/001_rawdata/README_dataraw.md
+
+echo "
+Here comes derived data, usually this repository would be:
+
+- trashed if the raw data is published
+- published if the raw data is archived
+" >> 03_data/001_deriveddata/README_dataderived.md
+
+echo "
+# Figures
+
+Put here figures/graphs you want to share or use in dissemination files (poster/presentation)
+
+" >> 05_figures/990_shared_figures/README_figures.md
+
+echo "
+# code
+
+This is a pure git repository
+
+" >> 04_data_analysis/001_analysiscode/README_analysis.md
+
 ```
 
 ## Create repositories on GIN
 
 You will need to add an application token for your user, then create the sibling with
 
-`datalad create-sibling-gin tonictests/template_01 -s gin -r --api https://gindata.biologie.hu-berlin.de --existing reconfigure --credential juliencolomb`
+`datalad create-sibling-gin G-Node/template_03 -s gin -r --api https://gindata.biologie.hu-berlin.de --existing reconfigure --credential juliencolomb`
 
 - change the api with the address of your GIN instance, you do not have to specify the port.
 - change credential with your username
 - You can use a different organisation than G-Node, but since we created that one earlier, you may as well use it!
 - you may change the name of the repository
 
-The .gitmodules files needs to be corrected by hand at this point. The `URL` entry will not be correct. You need to modify it with `../template_01-06_dissemination` and so on. change every slash into `-`.
+## Correct .gitmodules
+
+The .gitmodules files needs to be corrected by hand at this point. The `URL` entry will not be correct. You need to modify it with `../template_03-06_dissemination` and so on. change every slash into `-`.
+
+```
+open .gitmodules
+```
 
 ## Add scripts
 
@@ -70,6 +106,13 @@ DO NOT USE the scripts to push the template, as scripts usually add other elemen
 ## Manual additions
 
 You may want to add extra information and readme files, especially in the newly created submodules (the one with no `-f` above).
+
+Putative changes:
+
+- modify readme files
+- add a `.Rprofile` file to give info to Rstudio users
+- 
+
 
 ## Push data
 
@@ -98,7 +141,7 @@ you may have to checkout to that branch.
 git checkout --orphan a_main
 git add -A
 git commit -m "Template initialisation"
-git push --set-upstream origin a_main
+git push --set-upstream gin a_main
 ```
 
 Then make the a_main branch the default branch, on the browser (Settings::Branches).
