@@ -25,8 +25,8 @@ datalad create -f -c text2git -d . 05_figures/990_shared_figures
 ```
 
 Note that some of them use the text2git options, so that text will be added to git and not to git-annex.
- 
-> Because the tonic application does not support repositories without annex, we did not use the --no-annex option for the code repository, this might be done in the repositories later on. (https://github.com/G-Node/tonic/issues/52) 
+
+> Because the tonic application does not support repositories without annex, we did not use the --no-annex option for the code repository, this might be done in the repositories later on. (https://github.com/G-Node/tonic/issues/52)
 
 You may have seen that the analysis code is a git-only repository, there will be no annexed file there. Alternatively, you may only use the text2git option with:
 `datalad create -c text2git -d . 04_data_analysis/001_analysiscode`
@@ -118,8 +118,7 @@ Putative changes:
 
 - modify readme files
 - add a `.Rprofile` file to give info to Rstudio users
-- 
-
+-
 
 ## Push data
 
@@ -133,6 +132,7 @@ Since you may have made several save at this point, we want to clean the history
 To do so, we will create a new branch and rename the master branch "oberste", and delete the master branch on gin:
 
 Let's first rename the master branch:
+
 ```
 git branch -M oberste
 git push --set-upstream gin oberste
@@ -153,16 +153,10 @@ Then **make the a_main branch the default branch**, on the browser (Settings::Br
 
 Note: If a a_main branch already exist, you will need to erase it first:
 
-`git branch -d a_main``
-`git push -d gin a_main``
-
+` git branch -d a_main``
+ `git push -d gin a_main``
 
 > The clean branch is called a_main because in absence of "master"" branch, GIN takes alphabetical order for the default branch.
 
-> Depending on the tool you are using to clone the  repositories created from the template,
-you may have to checkout to to the a_main branch to see the content.
-
-
-
-
-
+> Depending on the tool you are using to clone the repositories created from the template,
+> you may have to checkout to to the a_main branch to see the content.
