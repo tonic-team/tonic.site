@@ -34,9 +34,9 @@ like the creation of project repositories and user management.
 
 ## Development status
 
-- Standard: version 2.2
-- Tonic: beta, v1.0 meant for 2021
-- Scripts: beta, v1.0 meant for 2021
+- Standard: version 2.4, Thorsten Arendt, Mittal, Deepti, Sehara, Keisuke, Cook, Tamara, & Julien Colomb. (2023). Folder structure template for research repositories (v2.4). Zenodo. https://doi.org/10.5281/zenodo.7763694
+- Tonic: beta, stable version, no doi yet: https://github.com/G-Node/tonic
+- Scripts: v.0.1.0, Colomb, Julien, & Koutsou, Achilleas. (2023). Tonic synchronisation scripts (0.1.0). Zenodo. https://doi.org/10.5281/zenodo.8249657
 
 ## Why was Tonic built
 
